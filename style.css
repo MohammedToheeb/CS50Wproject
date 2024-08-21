@@ -19,9 +19,9 @@ body {
 
 .google-logo{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 7.5em;
-    font-weight: bold;
-    letter-spacing: -20px;
+    font-size: 6.5em;
+    font-weight: 600;
+    letter-spacing: -18px;
     margin-bottom: 25px;
     margin-left: -50px;
 }
@@ -56,21 +56,49 @@ body {
     text-align: center;
 }
 
+.search-icon {
+    --padding: 15px;
 
-.search input[type="text"] {
-    border-radius: 5px;
-    height: 2em;
-    width: 60%;
-    max-width: 350px;
+    display: flex;
+    align-items: center;
+    width: max-content;
+    border-radius: 28px;
+    padding: var(--padding);
+    background-color: #f6f6f6;
+    width: 800px;
+    transition: boxshadow 0.25;
+    margin-right: auto;
+    margin-left: auto; }
+
+.search-icon:focus-within {
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.75); }
+
+.search-input {
+    width: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    color: #000000;
+    outline: none;
+    border: none;
+    background: transparent;
+    flex: 1;
+}
+
+.search-input::placeholder {
+    color: rgba(0, 0, 0, 0.55);
+    box-sizing: border-box;
+    padding-left: -5px; }
+
+    .submit-search {
+    font-family: Tahoma, sans-serif;
+    font-size: 18px;
+    color: #000000;
+    outline: none;
+    border: none;
+    background: transparent;
+    }
+
+    .submit-search:hover {
+        color: #f1f1f1;
+    }
     
-}
-
-.search input[type="submit"] {
-    font-size: 16px;
-    border-radius: 5px;
-    background-color: #fff;
-    color: #000;
-    font-weight: bold;
-    font-family: 'Times New Roman', Times, serif;
-
-}
