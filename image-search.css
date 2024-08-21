@@ -1,0 +1,128 @@
+body {
+    background-color: #fff
+
+}
+
+.nav-page {
+    display: flex;
+    gap: 15px;
+    float: right;
+    margin: -10px 0 5px 0;
+}
+
+.nav-page a {
+    text-decoration: none;
+    color: #000000;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 0.5em;
+}
+
+.nav-page a:hover {
+    color: #f1f1f1;
+    text-decoration-line: underline;
+}
+
+.nav-page a:visited {
+     color: #f2f3f4;
+}
+.google-logo{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 6.5em;
+    font-weight: 600;
+    letter-spacing: -18px;
+    margin-bottom: 25px;
+    margin-left: -50px;
+}
+
+.google-logo .G {
+    color: #4285F4;
+}
+
+.google-logo .o1 {
+    color: #EA4335;
+}
+
+.google-logo .o2 {
+    color: #FBBC05;
+}
+
+.google-logo .g {
+    color: #4285F4;
+}
+
+.google-logo .l {
+    color: #34A853;
+}
+
+.google-logo .e {
+    color: #EA4335;
+}
+
+p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin-top: -50px;
+    margin-left: 200px;
+    color: #4285F4;
+}
+
+.search{
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+}
+
+.search-icon {
+    --padding: 1px;
+
+    display: flex;
+    align-items: center;
+    width: max-content;
+    border-radius: 28px;
+    padding: var(--padding);
+    background-color: #f6f6f6;
+    width: 800px;
+    transition: boxshadow 0.25;
+    margin-right: auto;
+    margin-left: auto; }
+
+.search-icon:focus-within {
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.75); }
+
+.search-input {
+    width: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    color: #000000;
+    outline: none;
+    border: none;
+    background: transparent;
+    flex: 1;
+}
+
+.search-font {
+    color: rgba(0, 0, 0, 0.55);
+    box-sizing: border-box;
+    padding-left: -5px; }
+
+.search-font {
+    margin-left: 15px;
+}
+    
+    .submit-button img {
+        width: 25px;
+        color: #4285F4;
+    }
+
+    .submit-button {
+        border: 0;
+        border-radius: 50%;
+        width: 60px;
+        height: 60px;
+        background: transparent;
+        padding-right: 28px;
+    }
+
+    .submit-button:hover {
+        color: #f1f1f1;
+    }
