@@ -112,6 +112,7 @@ p {
     .submit-button img {
         width: 25px;
         color: #4285F4;
+        cursor: pointer;
     }
 
     .submit-button {
@@ -123,6 +124,6 @@ p {
         padding-right: 28px;
     }
 
-    .submit-button:hover {
+    .submit-button img:hover {
         color: #f1f1f1;
     }

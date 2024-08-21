@@ -39,7 +39,7 @@ body {
 }
 
 .google-logo .o1 {
-    color: red;
+    color: #EA4335;
 }
 
 .google-logo .o2 {
@@ -104,6 +104,7 @@ body {
     outline: none;
     border: none;
     background: transparent;
+    cursor: pointer;
     }
 
     .submit-search:hover {
