@@ -1,0 +1,119 @@
+body {
+    background-color: #fff
+
+}
+
+.nav-page {
+    display: flex;
+    gap: 15px;
+    float: right;
+    margin: -10px 0;
+    margin-right: 20px;
+}
+
+.nav-page a {
+    text-decoration: none;
+    color: #000000;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 0.5em;
+}
+
+.nav-page a:hover {
+    color: #f1f1f1;
+    text-decoration-line: underline;
+}
+
+.nav-page a:visited {
+     color: #f2f3f4;
+}
+.google-logo{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    font-weight: 600;
+    letter-spacing: 0px;
+    margin-bottom: 60px;
+   
+}
+
+.nav-left h2 {
+    font-size: 20px;
+    margin-top: 80px;
+    margin-left: -40px;
+    font-family: Helvetica, sans-serif;
+    font-weight: lighter;
+    color: #EA4335;
+}
+
+.google-logo .G {
+    color: #4285F4;
+}
+
+.google-logo .o1 {
+    color: #EA4335;
+}
+
+.google-logo .o2 {
+    color: #FBBC05;
+}
+
+.google-logo .g {
+    color: #4285F4;
+}
+
+.google-logo .l {
+    color: #34A853;
+}
+
+.google-logo .e {
+    color: #EA4335;
+}
+
+h1, h2 {
+    display: flex;
+    float: left;
+}
+
+.formcontainer {
+    padding-top: 150px;
+}
+
+fieldset {
+    border: none;
+    border-top: 1px solid #f1f1f1;
+    margin-top: -30px;
+}
+
+fieldset p {
+    font-size: 25px;
+}
+
+.searchlist {
+    display: block;
+    margin: 0.5rem 0;
+    margin-bottom: -20px;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input {
+    margin-top: -10px;
+    margin-left: 15%;
+    margin-bottom: 10px;
+    width: 70%;
+    min-height: 2em;
+}
+
+.searchsub {
+    color: #f2f3f4;
+    background-color: #4285F4;
+    border: none;
+    height: 2em;
+    border-radius: 1px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: lighter;
+    display: flex;
+    align-items: center;
+    margin-left: 60em;
+    margin-top: 1.3em;
+}
