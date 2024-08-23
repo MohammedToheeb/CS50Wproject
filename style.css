@@ -87,8 +87,8 @@ h1 a {
 
 .search-input {
     width: 100%;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 18px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
     color: #000000;
     outline: none;
     border: none;
@@ -109,8 +109,8 @@ h1 a {
 }
 
     .submit-search {
-    font-family: Tahoma, sans-serif;
-    font-size: 18px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
     color: #000000;
     outline: none;
     border: none;
@@ -126,8 +126,8 @@ h1 a {
     .lucky {
     text-decoration: none;
     color: #000000;
-    font-family: Tahoma, sans-serif;
-    font-size: 18px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
     border: none;
     background-color: #f8f9fa;
     padding: 2px;
